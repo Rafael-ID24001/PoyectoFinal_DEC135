@@ -1,6 +1,6 @@
 ; ==============================================================================
 ; ARCHIVO: matriz_traspuesta.asm
-; DESCRIPCIoN: Captura una matriz 3x3 de un solo digito por celda, 
+; DESCRIPCION: Captura una matriz 3x3 de un solo digito por celda, 
 ;              calcula su traspuesta y muestra los resultados.
 ; COMPILAR: nasm -f elf64 matriz_traspuesta.asm -o matriz_traspuesta.o
 ; ENLAZAR: ld matriz_traspuesta.o -o matriz_traspuesta
