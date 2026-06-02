@@ -26,6 +26,8 @@ ld matriz_traspuesta.o -o matriz_traspuesta
 
 Una vez en ejecucion, el programa guiara al usuario paso a paso para ingresar los nueve digitos y finalmente mostrara tanto la matriz original como su traspuesta.
 
+## [LEER Explicación de Código ASSEMBLY NASM](./src/explicacion/matriz_traspuesta_explicacion.asm)
+
 ## Como se Organiza la Memoria para la Matriz
 
 En los lenguajes de alto nivel como C o Python, una matriz se representa naturalmente como una cuadricula de filas y columnas. Pero en el hardware de una computadora, la memoria RAM no es mas que una larga y continua secuencia de bytes, cada uno con su propia direccion. No existen las filas ni las columnas a nivel de memoria; solo posiciones consecutivas numeradas desde cero en adelante.
